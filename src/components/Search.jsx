@@ -6,7 +6,6 @@ const Search = ({search}) => {
 
     const delayedSearch = useRef (
         debounce(e => {
-            console.log('Aqui', e)
             search(e)
         }, 500)
     ).current;

@@ -1,13 +1,16 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 
+const emailjsAccount = process.env.REACT_APP_EMAILJS_ACCOUNT;
+const emailjsTemplate = process.env.REACT_APP_EMAILJS_TEMPLATE;
+const emailjsUserKey = process.env.REACT_APP_EMAILJS_USERKEY;
+
 const Mail = ({selectedComics}) => {
     const [mail, setMail] = useState('')
-    // const [mailTemplate, setMailTemplate] = useState('')
 
     const sendEmail = async (mail) => {
         const mailTemplate = await templateBuilder(mail, selectedComics)
-        emailjs.send('react-comics', 'react-comics-template', mailTemplate, "user_GuRYHMHtFcAddu0cdoXgu")
+        emailjs.send(emailjsAccount, emailjsTemplate, mailTemplate, emailjsUserKey)
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -16,7 +19,6 @@ const Mail = ({selectedComics}) => {
       }
 
     const templateBuilder = (mail, comicList) => {
-        console.log(comicList)
         const template = `
             <table style="border-collapse: collapse; width: 81.9629%; height: 20px; border-style: none;" border="1">
                 <tbody>

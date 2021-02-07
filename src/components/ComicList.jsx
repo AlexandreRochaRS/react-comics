@@ -3,7 +3,6 @@ import Comic from './Comic'
 import Loader from './Loader'
 
 const Comics = ({items, isLoading, openModal, selectComic}) => {
-    console.log(isLoading)
     return (
         <section className="comics container">
             {!isLoading ? items.map(item => 

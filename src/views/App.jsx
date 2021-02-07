@@ -32,9 +32,8 @@ const App = () => {
 
 	useEffect(() => {
 		setIsLoading(true)
-		api.get('', query ? {params: {title: query}} : '')
+		api.get('/comics', query ? {params: {title: query}} : '')
 		.then(result => {
-			console.log(result.data.data.results)
 			setItems(result.data.data.results)
 			setIsLoading(false)
 		})		
