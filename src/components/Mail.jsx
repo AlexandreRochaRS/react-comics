@@ -8,7 +8,8 @@ const emailjsUserKey = process.env.REACT_APP_EMAILJS_USERKEY;
 const Mail = ({selectedComics}) => {
     const [mail, setMail] = useState('')
 
-    const sendEmail = async (mail) => {
+    const sendEmail = async (e,mail) => {
+        e.preventDefault(); 
         const mailTemplate = await templateBuilder(mail, selectedComics)
         emailjs.send(emailjsAccount, emailjsTemplate, mailTemplate, emailjsUserKey)
           .then((result) => {
@@ -58,7 +59,7 @@ const Mail = ({selectedComics}) => {
                 <span>Envie os quadrinhos selecionados para seu email</span>
                 <div className="send-mail">
                     <input type="text" className="input" placeholder="Email" onChange={e => setMail(e.target.value)}/>
-                    <button className="btn-default" onClick={()=> sendEmail(mail)}>Enviar</button>
+                    <button className="btn-default" onClick={e=> sendEmail(e,mail)}>Enviar</button>
                 </div>
             </form>
         </section>

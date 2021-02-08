@@ -18,30 +18,11 @@ $notebook: 1024px;
 $desktop: 1366px;
 $large-desktop: 1920px;
 
-
-@font-face {
-  font-family: 'colaboratelight';
-  src: url('../fonts/ColabLig-webfont.eot');
-  src: url('../fonts/ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/ColabLig-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @font-face {
   font-family: 'colaborate-regular';
   src: url('../fonts/ColabReg-webfont.eot');
   src: url('../fonts/ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
        url('../fonts/ColabReg-webfont.woff') format('woff'),;
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'colaborate-bold';
-  src: url('../fonts/ColabBol-webfont.eot');
-  src: url('../fonts/ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/ColabBol-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -128,6 +109,10 @@ input[type='text'] {
   background-color: black;
   box-shadow: 0px 0px 5px 3px #ffffff;
 
+  @media (min-width: $small-mobile) {
+    height: 290px;
+  }
+
   @media (min-width: $mobile) {
     height: 250px;
   }
@@ -141,13 +126,17 @@ input[type='text'] {
   }
 
   @media (min-width: $notebook) {
-    height: 380px;
+    height: 390px;
   }
   
   img {
     width: 100%;
     clip-path: polygon(0% 0%, 100% 0%, 100% 68%, 0% 78%);
     object-fit: cover;
+
+    @media (min-width: 400px) and (max-width:$mobile) {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 58%, 0% 68%);
+    }
   }
 
   .title {
@@ -183,6 +172,10 @@ input[type='text'] {
 
       @media (min-width: $small-tablet) {
         font-size: 1.2rem;
+      }
+
+      @media (min-width: $notebook) {
+        padding:0 10px 0 5px;
       }
     }
   }
@@ -258,14 +251,18 @@ input[type='text'] {
       top: 35%;
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: $notebook) {
       top: 65%;
       flex-direction: row;
     }
 
     &.hidden {
-      opacity: 0;
+      display: none;
       transition: all 150ms ease-in-out;
+    }
+
+    @media (min-width: $notebook) {
+      opacity: 0;
     }
   }
 }
