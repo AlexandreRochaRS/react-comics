@@ -33,7 +33,7 @@ const Mail = ({selectedComics}) => {
         const template = `
             <table style="border-collapse: collapse; width: 81.9629%; height: 20px; border-style: none;" border="1">
                 <tbody>
-                ${comicList.map(comic => {
+                ${ comicList.length > 0 ? comicList.map(comic => {
                     return `
                     <tr style="height: 10px; border-style: none;">
                         <td style="width: 10%; height: 20px; border-style: none;" rowspan="2">
@@ -53,7 +53,7 @@ const Mail = ({selectedComics}) => {
                         </td>
                     </tr>
                     `
-                }).join('')}
+                }).join('') : 'Ops, você não selecionou nenhum quadrinho.'}
                 </tbody>
             </table>
         `

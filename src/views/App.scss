@@ -258,10 +258,6 @@ input[type='text'] {
       display: none;
       transition: all 150ms ease-in-out;
     }
-
-    @media (min-width: $notebook) {
-      opacity: 0;
-    }
   }
 }
 
