@@ -1,7 +1,4 @@
-<img src="https://img.shields.io/npm/v/react?label=React"/>
-<img src="https://img.shields.io/github/languages/code-size/Andersonrrocha/react-comics"/>
-<img src="https://img.shields.io/github/last-commit/Andersonrrocha/react-comics"/>
-<img src="https://img.shields.io/github/license/Andersonrrocha/react-comics"/>
+<img src="https://img.shields.io/npm/v/react?label=React"/> <img src="https://img.shields.io/github/languages/code-size/Andersonrrocha/react-comics"/> <img src="https://img.shields.io/github/last-commit/Andersonrrocha/react-comics"/> <img src="https://img.shields.io/github/license/Andersonrrocha/react-comics"/>
 # React Comics
 
 ## Indice
