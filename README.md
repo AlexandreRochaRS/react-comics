@@ -22,9 +22,9 @@ O projeto <a src="https://andersonrrocha.github.io/react-comics/">React Comics</
 
 ## ⚡ Funcionalidades
 
-##### ✅ Exibição de Quadrinhos
-##### ✅ Buscar quadrinhos de personagem específico
-##### ✅ Selecionar quadrinhos e enviar para seu email
+##### &nbsp;&nbsp;&nbsp;✅ Exibição de Quadrinhos
+##### &nbsp;&nbsp;&nbsp;✅ Buscar quadrinhos de personagem específico
+##### &nbsp;&nbsp;&nbsp;✅ Selecionar quadrinhos e enviar para seu email
 
 ## ⚒️  Tecnologias
 
@@ -32,16 +32,17 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #####Principais Tecnologias
 - [React](https://pt-br.reactjs.org/)
-- [Axios](https://github.com/axios/axios)
-- [Sass](https://github.com/axios/axios)
+- [Axios](https://github.com/axios/axios) 
+- [Sass](https://github.com/axios/axios) 
 
 
 
 #####Recursos adicionais utilizados
+- [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html) utilizado para gerenciamento de estado da aplicação.
 - [Emailjs](https://github.com/eleith/emailjs) utilizado para enviar os quadrinhos selecionados por email.
-- [Lodash](https://lodash.com/) utilizado para previnir a busca exaustiva na Api a cada letra digitada na pesquisa
-- [react-lottie](https://github.com/chenqingspring/react-lottie) utilizado para fazer a animação de loading enquanto busca os quadrinhos
-- [react-modal](https://github.com/reactjs/react-modal) utilizado para criar modal com os detalhes dos quadrinhos
+- [Lodash](https://lodash.com/) utilizado para previnir a busca exaustiva na Api a cada letra digitada na pesquisa.
+- [react-lottie](https://github.com/chenqingspring/react-lottie) utilizado para fazer a animação de loading enquanto busca os quadrinhos.
+- [react-modal](https://github.com/reactjs/react-modal) utilizado para criar modal com os detalhes dos quadrinhos.
 ## 🗂 Como baixar o projeto
 
 ```bash
