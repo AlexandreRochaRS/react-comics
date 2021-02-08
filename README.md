@@ -1,37 +1,65 @@
+<img src="https://img.shields.io/npm/v/react?label=React"/>
+<img src="https://img.shields.io/github/languages/code-size/Andersonrrocha/react-comics"/>
+<img src="https://img.shields.io/github/last-commit/Andersonrrocha/react-comics"/>
+<img src="https://img.shields.io/github/license/Andersonrrocha/react-comics"/>
 # React Comics
 
-## Este projeto consiste de uma SPA que consulta a API de quadrinhos da marvel e exibe os resultados
+## Indice
 
-Tabela de conteúdos
-=================
-<!--ts-->
-   * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
-   * [Tecnologias](#tecnologias)
-   * [Autor](#autor)
-<!--te-->
+- [Sobre](#-sobre)
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias](#-tecnologias)
+    - [Principais Tecnologias](#-principais-tecnologias)
+    - [Recursos Adicionais](#-recursos-adicionais-utilizados)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
+- [Autor](#-autor)
 
-### Features
 
-- [x] Exibição de Quadrinhos
-- [x] Buscar quadrinhos de personagem específico
-- [x] Selecionar quadrinhos e enviar para seu email
+## 🔖 Sobre
 
-### 🛠 Tecnologias
+O projeto <a src="https://andersonrrocha.github.io/react-comics/">React Comics</a> é uma SPA que realiza buscas na API de quadrinhos da Marvel e exibe os quadrinhos retornados, podendo assim ver detalhes dos mesmos ou selecioná-los para enviar por email.
+
+
+## ⚡ Funcionalidades
+
+##### ✅ Exibição de Quadrinhos
+##### ✅ Buscar quadrinhos de personagem específico
+##### ✅ Selecionar quadrinhos e enviar para seu email
+
+## ⚒️  Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- Principais Tecnologias
-    - [React](https://pt-br.reactjs.org/)
-    - [Axios](https://github.com/axios/axios)
-    - [Sass](https://github.com/axios/axios)
+#####Principais Tecnologias
+- [React](https://pt-br.reactjs.org/)
+- [Axios](https://github.com/axios/axios)
+- [Sass](https://github.com/axios/axios)
 
-<br/>
 
-- Tecnologias adicionais utilizadas
-    - [Emailjs](https://github.com/axios/axios)
-    - [react-modal](https://github.com/axios/axios)
+
+#####Recursos adicionais utilizados
+- [Emailjs](https://github.com/eleith/emailjs) utilizado para enviar os quadrinhos selecionados por email.
+- [Lodash](https://lodash.com/) utilizado para previnir a busca exaustiva na Api a cada letra digitada na pesquisa
+- [react-lottie](https://github.com/chenqingspring/react-lottie) utilizado para fazer a animação de loading enquanto busca os quadrinhos
+- [react-modal](https://github.com/reactjs/react-modal) utilizado para criar modal com os detalhes dos quadrinhos
+## 🗂 Como baixar o projeto
+
+```bash
+
+    # Clonar o repositório
+    $ git clone https://github.com/Andersonrrocha/react-comics
+
+    # Entrar no diretório
+    $ cd react-comics
+
+    # Instalar as dependências
+    $ yarn install
+
+    # Iniciar o projeto
+    $ yarn start
+```
+
+
 
 
 ### Autor

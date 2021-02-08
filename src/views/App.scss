@@ -77,7 +77,7 @@ input[type='text'] {
   }
 }
 
-.comics {
+.comicList {
   min-height: 100vh;
   gap: 0.4rem;
   display: grid;
@@ -93,12 +93,10 @@ input[type='text'] {
     grid-template-columns: repeat(4, 1fr);
   }
 
-
-  .loader {
+  .animation {
     grid-column: span 4;
     padding-top: 60px;
   }
-
 }
 
 .comic {
@@ -354,7 +352,7 @@ input[type='text'] {
 
 .mail {
   margin-top: 20px;
-  padding: 70px 0 100px;
+  padding: 80px 0 130px;
 
   span {
     display: block;

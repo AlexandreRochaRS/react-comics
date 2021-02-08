@@ -1,16 +1,20 @@
 import React from 'react'
 import Comic from './Comic'
-import Loader from './Loader'
+import Animation from './Animation'
 
 const Comics = ({items, isLoading, openModal, selectComic}) => {
     return (
-        <section className="comics container">
+        <section className="comicList container">
             {!isLoading ? items.map(item => 
                 <Comic key={item.id}
                     item={item}
                     openModal={openModal}
                     selectComic={selectComic}/>
-            ): <Loader/>}
+            ) : <Animation
+                    loop={true}
+                    animation={'loading'}
+                    width={120}
+                    height={120}/>}
         </section>
     )
 }

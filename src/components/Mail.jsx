@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+import Animation from './Animation'
 import emailjs from 'emailjs-com'
+import { set } from 'lodash';
 
 const emailjsAccount = process.env.REACT_APP_EMAILJS_ACCOUNT;
 const emailjsTemplate = process.env.REACT_APP_EMAILJS_TEMPLATE;
@@ -7,15 +9,23 @@ const emailjsUserKey = process.env.REACT_APP_EMAILJS_USERKEY;
 
 const Mail = ({selectedComics}) => {
     const [mail, setMail] = useState('')
+    const [sending, setSending] = useState(false)
+    const [sentMail, setSentMail] = useState(false)
 
     const sendEmail = async (e,mail) => {
-        e.preventDefault(); 
+        e.preventDefault();
+        setSending(true) 
         const mailTemplate = await templateBuilder(mail, selectedComics)
         emailjs.send(emailjsAccount, emailjsTemplate, mailTemplate, emailjsUserKey)
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
+        .then((result) => {
+            setSending(false);
+            setSentMail(true)
+            setTimeout(()=> {
+                setSentMail(false)
+            },1800)
+        }, (error) => {
+            setSending(false);
+            console.log(error.text);
           });
       }
 
@@ -57,6 +67,12 @@ const Mail = ({selectedComics}) => {
         <section className="mail">
             <form className="container">
                 <span>Envie os quadrinhos selecionados para seu email</span>
+                {sentMail ? <span>Email enviado</span> : null}
+                {sending || sentMail ? <Animation
+                    loop={sending ? true :false}
+                    animation={sending ? 'loading' : 'check'}
+                    width={sending ? 120 : 60}
+                    height={sending ? 120 : 60}/>: null}
                 <div className="send-mail">
                     <input type="text" className="input" placeholder="Email" onChange={e => setMail(e.target.value)}/>
                     <button className="btn-default" onClick={e=> sendEmail(e,mail)}>Enviar</button>
