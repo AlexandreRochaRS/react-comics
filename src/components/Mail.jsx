@@ -58,7 +58,7 @@ const Mail = ({selectedComics}) => {
                 <span>Envie os quadrinhos selecionados para seu email</span>
                 <div className="send-mail">
                     <input type="text" className="input" placeholder="Email" onChange={e => setMail(e.target.value)}/>
-                    <button onClick={()=> sendEmail(mail)}>Enviar</button>
+                    <button className="btn-default" onClick={()=> sendEmail(mail)}>Enviar</button>
                 </div>
             </form>
         </section>

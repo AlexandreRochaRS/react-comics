@@ -18,7 +18,8 @@ const customStyles = {
 	right                 : 'auto',
 	bottom                : 'auto',
 	marginRight           : '-50%',
-	transform             : 'translate(-50%, -50%)'
+	transform             : 'translate(-50%, -50%)',
+	padding               : '0'             
 	}
 }
 
@@ -62,19 +63,16 @@ const App = () => {
 
 	return (
 	<div className="app">
-		{/* <div className="container"> */}
-			<Header></Header>
-			<Search search={(q) => setQuery(q)}></Search>
-			<Comics items={items} isLoading={isLoading} openModal={openModal} selectComic={selectComic}></Comics>
-			<Mail selectedComics={selectedComics}></Mail>
-			<Modal
+		<Header></Header>
+		<Search search={(q) => setQuery(q)}></Search>
+		<Comics items={items} isLoading={isLoading} openModal={openModal} selectComic={selectComic}></Comics>
+		<Mail selectedComics={selectedComics}></Mail>
+		<Modal
 			isOpen={modalIsOpen}
 			onRequestClose={closeModal}
-			contentLabel="Example Modal"
 			style={customStyles}>
-				<ComicDetails comic={modalContent} closeModal={closeModal}></ComicDetails>
-			</Modal>
-		{/* </div> */}
+			<ComicDetails comic={modalContent} closeModal={closeModal}></ComicDetails>
+		</Modal>
 	</div>
 	);
 }

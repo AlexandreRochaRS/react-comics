@@ -25,8 +25,8 @@ const Comic = ({item, openModal, selectComic}) => {
                     </div>
                 </div>
                 <div className={hover ? "options" : "options hidden"}>
-                    <button onClick={onClickSelect}>{selected ? "Remover" : "Selecionar"}</button>
-                    <button onClick={() => openModal(item)}>Detalhes</button>
+                    <button className="btn-default" onClick={onClickSelect}>{selected ? "Remover" : "Selecionar"}</button>
+                    <button className="btn-default" onClick={() => openModal(item)}>Detalhes</button>
                 </div>
             </div>
         </div>

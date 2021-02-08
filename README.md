@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# React Comics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Este projeto consiste de uma SPA que consulta a API de quadrinhos da marvel e exibe os resultados
 
-## Available Scripts
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Instalação](#instalacao)
+   * [Tecnologias](#tecnologias)
+   * [Autor](#autor)
+<!--te-->
 
-In the project directory, you can run:
+### Features
 
-### `yarn start`
+- [x] Exibição de Quadrinhos
+- [x] Buscar quadrinhos de personagem específico
+- [x] Selecionar quadrinhos e enviar para seu email
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🛠 Tecnologias
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### `yarn test`
+- Principais Tecnologias
+    - [React](https://pt-br.reactjs.org/)
+    - [Axios](https://github.com/axios/axios)
+    - [Sass](https://github.com/axios/axios)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
 
-### `yarn build`
+- Tecnologias adicionais utilizadas
+    - [Emailjs](https://github.com/axios/axios)
+    - [react-modal](https://github.com/axios/axios)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Autor
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a href="https://github.com/Andersonrrocha">
+ <img style="border-radius: 50%;" src="https://scontent.fpoa1-1.fna.fbcdn.net/v/t1.0-9/120135497_3284127605028580_4563795741532333965_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=d5zovM4_3eIAX8eV6y1&_nc_ht=scontent.fpoa1-1.fna&oh=0c7e83f7d02c6e2cd72b00c8ade72d09&oe=6044E532" width="100px;" alt=""/>
+ <br />
+ <sub><b>Anderson Rocha</b></sub></a> <a href="https://github.com/Andersonrrocha" title="Github">🚀</a>
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Feito por um grande fã da Marvel chamado Anderson Rocha
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Linkedin Badge](https://img.shields.io/badge/-Anderson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anderson-rocha-852724127/)](https://www.linkedin.com/in/anderson-rocha-852724127/) 
