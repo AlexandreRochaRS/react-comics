@@ -27,14 +27,14 @@ O projeto <a src="https://andersonrrocha.github.io/react-comics/">React Comics</
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#####Principais Tecnologias
+##### Principais Tecnologias
 - [React](https://pt-br.reactjs.org/)
 - [Axios](https://github.com/axios/axios) 
 - [Sass](https://github.com/axios/axios) 
 
 
 
-#####Recursos adicionais utilizados
+##### Recursos adicionais utilizados
 - [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html) utilizado para gerenciamento de estado da aplicação.
 - [Emailjs](https://github.com/eleith/emailjs) utilizado para enviar os quadrinhos selecionados por email.
 - [Lodash](https://lodash.com/) utilizado para previnir a busca exaustiva na Api a cada letra digitada na pesquisa.

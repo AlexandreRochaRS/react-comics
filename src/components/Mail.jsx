@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Animation from './Animation'
 import emailjs from 'emailjs-com'
-import { set } from 'lodash';
 
 const emailjsAccount = process.env.REACT_APP_EMAILJS_ACCOUNT;
 const emailjsTemplate = process.env.REACT_APP_EMAILJS_TEMPLATE;
@@ -53,7 +52,7 @@ const Mail = ({selectedComics}) => {
                         </td>
                     </tr>
                     `
-                }).join('') : 'Ops, você não selecionou nenhum quadrinho.'}
+                }).join('') : 'https://andersonrrocha.github.io/react-comics/ocê não selecionou nenhum quadrinho.'}
                 </tbody>
             </table>
         `
