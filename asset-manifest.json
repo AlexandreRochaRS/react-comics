@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/react-comics/static/css/main.6ec4c53a.chunk.css",
-    "main.js": "/react-comics/static/js/main.13e34dfe.chunk.js",
-    "main.js.map": "/react-comics/static/js/main.13e34dfe.chunk.js.map",
+    "main.js": "/react-comics/static/js/main.acee2d1e.chunk.js",
+    "main.js.map": "/react-comics/static/js/main.acee2d1e.chunk.js.map",
     "runtime-main.js": "/react-comics/static/js/runtime-main.d2942e37.js",
     "runtime-main.js.map": "/react-comics/static/js/runtime-main.d2942e37.js.map",
-    "static/js/2.465d8dce.chunk.js": "/react-comics/static/js/2.465d8dce.chunk.js",
-    "static/js/2.465d8dce.chunk.js.map": "/react-comics/static/js/2.465d8dce.chunk.js.map",
+    "static/js/2.1d6f194c.chunk.js": "/react-comics/static/js/2.1d6f194c.chunk.js",
+    "static/js/2.1d6f194c.chunk.js.map": "/react-comics/static/js/2.1d6f194c.chunk.js.map",
     "index.html": "/react-comics/index.html",
     "static/css/main.6ec4c53a.chunk.css.map": "/react-comics/static/css/main.6ec4c53a.chunk.css.map",
-    "static/js/2.465d8dce.chunk.js.LICENSE.txt": "/react-comics/static/js/2.465d8dce.chunk.js.LICENSE.txt",
+    "static/js/2.1d6f194c.chunk.js.LICENSE.txt": "/react-comics/static/js/2.1d6f194c.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/react-comics/static/media/marvel-background.00e76309.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d2942e37.js",
-    "static/js/2.465d8dce.chunk.js",
+    "static/js/2.1d6f194c.chunk.js",
     "static/css/main.6ec4c53a.chunk.css",
-    "static/js/main.13e34dfe.chunk.js"
+    "static/js/main.acee2d1e.chunk.js"
   ]
 }
