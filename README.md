@@ -64,7 +64,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 <a href="https://github.com/Andersonrrocha">
- <img style="border-radius: 50%;" src="https://scontent.fpoa1-1.fna.fbcdn.net/v/t1.0-9/120135497_3284127605028580_4563795741532333965_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=d5zovM4_3eIAX8eV6y1&_nc_ht=scontent.fpoa1-1.fna&oh=0c7e83f7d02c6e2cd72b00c8ade72d09&oe=6044E532" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/47790040?s=400&u=aebba8b4677071ece269291a65e56534db5cc52c&v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Anderson Rocha</b></sub></a> <a href="https://github.com/Andersonrrocha" title="Github">🚀</a>
 
