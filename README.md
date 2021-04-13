@@ -14,7 +14,7 @@
 
 ## 🔖 Sobre
 
-O projeto <a src="https://andersonrrocha.github.io/react-comics/">React Comics</a> é uma SPA que realiza buscas na API de quadrinhos da Marvel e exibe os quadrinhos retornados, podendo assim ver detalhes dos mesmos ou selecioná-los para enviar por email.
+O projeto <a href="https://andersonrrocha.github.io/react-comics/">React Comics</a> é uma SPA que realiza buscas na API de quadrinhos da Marvel e exibe os quadrinhos retornados, podendo assim ver detalhes dos mesmos ou selecioná-los para enviar por email.
 
 
 ## ⚡ Funcionalidades
